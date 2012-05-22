@@ -23,7 +23,7 @@ Go to your Sublime Text 2 `Packages` directory and clone the theme repository us
 To configure Sublime Text 2 to use the theme:
 
 * For Sublime Text 2 (Build 2174) and later - Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`. For earlier builds - Open your User Global Settings Preferences file `Sublime Text 2 -> Preferences -> Global Settings - User`
-* Add (or update) your theme entry to be `"theme": "Midnight.sublime-theme"`
+* Add (or update) your theme entry to be `"color_scheme": "Packages/Color Scheme - Midnight/Midnight.tmTheme"`
 
 ### Example User Settings
 
