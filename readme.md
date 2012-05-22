@@ -1,4 +1,4 @@
-# Soda Theme
+# Midnight Theme
 
 Dark syntax theme for Sublime Text 2.
 
