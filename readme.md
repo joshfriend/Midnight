@@ -28,5 +28,5 @@ To configure Sublime Text 2 to use the theme:
 ### Example User Settings
 
     {
-        "theme": "Soda Light.sublime-theme"
+        "color_scheme": "Packages/Color Scheme - Midnight/Midnight.tmTheme"
     }
