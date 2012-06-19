@@ -10,7 +10,7 @@ If you are a git user, the best way to install the theme and keep up to date is 
 
 Go to your Sublime Text 2 `Packages` directory and clone the theme repository using the command below:
 
-    git clone https://github.com/buymeasoda/soda-theme/ "Color Scheme - Midnight"
+    git clone https://github.com/Creepr/Midnight.git "Color Scheme - Midnight"
 
 ### Download Manually
 
