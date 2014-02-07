@@ -10,108 +10,6 @@
 	<string>Midnight</string>
 	<key>settings</key>
 	<array>
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_F8F8F8FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#F8F8F8FF</string>
-<key>caret</key>
-<string>#000000FF</string>
-<key>foreground</key>
-<string>#000000FF</string>
-</dict>
-</dict>
-
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_E9C062FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#E9C062FF</string>
-<key>caret</key>
-<string>#000000FF</string>
-<key>foreground</key>
-<string>#000000FF</string>
-</dict>
-</dict>
-
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_E18964FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#E18964FF</string>
-<key>caret</key>
-<string>#000000FF</string>
-<key>foreground</key>
-<string>#000000FF</string>
-</dict>
-</dict>
-
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_E1D4B9FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#E1D4B9FF</string>
-<key>caret</key>
-<string>#000000FF</string>
-<key>foreground</key>
-<string>#000000FF</string>
-</dict>
-</dict>
-
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_FEDCC5FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#FEDCC5FF</string>
-<key>caret</key>
-<string>#000000FF</string>
-<key>foreground</key>
-<string>#000000FF</string>
-</dict>
-</dict>
-
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_632D04FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#632D04FF</string>
-<key>caret</key>
-<string>#FFFFFFFF</string>
-<key>foreground</key>
-<string>#FFFFFFFF</string>
-</dict>
-</dict>
-
-
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -155,9 +53,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Entity</string>
+			<string>Function name</string>
 			<key>scope</key>
-			<string>entity</string>
+			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -619,6 +517,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup: Heading</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#F8F8F0</string>
+				<key>background</key>
+				<string>#8B67CC60</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markup: Italic</string>
 			<key>scope</key>
 			<string>markup.italic</string>
@@ -627,7 +540,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#E9C062</string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -640,20 +553,90 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#E9C062</string>
+				<string>#e62100</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Underline</string>
+			<string>Markdown: Linebreak</string>
 			<key>scope</key>
-			<string>markup.underline</string>
+			<string>text.html.markdown meta.dummy.line-break</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E0EDDD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Raw</string>
+			<key>scope</key>
+			<string>markup.raw</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown: Raw Inline</string>
+			<key>scope</key>
+			<string>text.html.markdown markup.raw.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Raw Block</string>
+			<key>scope</key>
+			<string>markup.raw.block.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Link URL</string>
+			<key>scope</key>
+			<string>markup.underline.link.markdown, markup.underline.link.image.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#E18964</string>
+				<string>#66D0FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Link Description</string>
+			<key>scope</key>
+			<string>string.other.link.description.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Link Title</string>
+			<key>scope</key>
+			<string>string.other.link.description.title.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#E6DB74</string>
 			</dict>
 		</dict>
 		<dict>
@@ -663,27 +646,10 @@
 			<string>markup.quote</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#FEE09C12</string>
 				<key>fontStyle</key>
 				<string>italic</string>
-				<key>foreground</key>
-				<string>#E1D4B9</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Heading</string>
-			<key>scope</key>
-			<string>markup.heading, markup.heading entity</string>
-			<key>settings</key>
-			<dict>
 				<key>background</key>
-				<string>#632D04</string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FEDCC5</string>
+				<string>#89919E20</string>
 			</dict>
 		</dict>
 		<dict>
@@ -694,35 +660,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E1D4B9</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Raw</string>
-			<key>scope</key>
-			<string>markup.raw</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#B1B3BA08</string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#578BB3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Comment</string>
-			<key>scope</key>
-			<string>markup comment</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#F67B37</string>
+				<string>#89919E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -732,10 +670,23 @@
 			<string>meta.separator</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#242424</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#60A633</string>
+				<string>#89919E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Escaped Character</string>
+			<key>scope</key>
+			<string>constant.character.escape.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#66D0FF</string>
 			</dict>
 		</dict>
 		<dict>
