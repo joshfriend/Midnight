@@ -711,7 +711,7 @@
 				<string>#751012</string>
 			</dict>
 		</dict>
-		<dict>
+		<<!-- dict>
 			<key>name</key>
 			<string>SublimeLinter Annotations</string>
 			<key>scope</key>
@@ -795,7 +795,7 @@
 				<key>background</key>
 				<string>#FF0000</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 		  <key>name</key>
 		  <string>GitGutter deleted</string>
