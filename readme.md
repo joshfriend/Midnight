@@ -2,6 +2,8 @@
 
 Dark, High-Contrast syntax theme for Sublime Text 2.
 
+![screenshot](screenshot.png)
+
 ## Installation
 
 If you are a git user, the best way to install the theme and keep up to date is to clone the repo directly into your `Packages` directory in the Sublime Text 2 application settings area.
